@@ -2,22 +2,22 @@ package Web.Socket1.Entities;
 
 public class MessageFromClientDTO {
 
-    private String from;
-    private String text;
+    private String type;
+    private String message;
 
-    public String getFrom() {
-        return from;
+    public String getType() {
+        return type;
     }
 
-    public void setFrom(String from) {
-        this.from = from;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public String getText() {
-        return text;
+    public String getMessage() {
+        return message;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
